@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<!-- saved from url=(0108)file:///C:/Users/DavidT/OneDrive/Desktop/SCHOOL/6.%20G.P/Group%20Project/GP%20UPDATED%20WEBISTE.html#problem -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <!-- anti-cache headers (no refresh needed) -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+  <title>Beyond "Free" · Nairobi education gap</title>
+
+  <!-- modern font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./Beyond _Free_ · Nairobi education gap_files/css2" rel="stylesheet">
+
+  <style>
+    /* === RESET & VARIABLES === */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg-dark: #0A0F14;
+      --bg-card: #1A242C;
+      --accent-blue: #2CB8E8;
+      --accent-gold: #FFD966;
+      --text-light: #F0F4F8;
+      --text-muted: #B0C0CC;
+      --nav-bg: #0F1A24;
+      --shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.7);
+      --border-glow: 0 0 0 2px rgba(44, 184, 232, 0.2);
+      --transition: all 0.2s ease;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--bg-dark);
+      color: var(--text-light);
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+
+    /* === TYPOGRAPHY & UTILS === */
+    .highlight {
+      color: var(--accent-gold);
+      font-weight: 700;
+      border-bottom: 2px solid var(--accent-gold);
+    }
+
+    .section-title {
+      color: var(--accent-blue);
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 2rem;
+      border-left: 6px solid var(--accent-gold);
+      padding-left: 1.5rem;
+      line-height: 1.2;
+    }
+
+    /* === NAVBAR === */
+    nav {
+      background: var(--nav-bg);
+      padding: 1rem 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(8px);
+      background-color: rgba(15, 26, 36, 0.95);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo {
+      font-size: 1.9rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #2CB8E8, #6EE7F0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.2rem;
+    }
+
+    .nav-links a {
+      color: var(--text-light);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.05rem;
+      transition: var(--transition);
+      border-bottom: 2px solid transparent;
+      padding-bottom: 4px;
+    }
+
+    .nav-links a:hover {
+      color: var(--accent-gold);
+      border-bottom-color: var(--accent-gold);
+    }
+
+    /* === HERO === */
+    .hero {
+      text-align: center;
+      padding: 8rem 1.5rem;
+      background: 
+        radial-gradient(circle at 10% 20%, #1C3A48, transparent 40%),
+        radial-gradient(circle at 90% 70%, #10262E, transparent 50%),
+        var(--bg-dark);
+      border-bottom: 1px solid #25333D;
+    }
+
+    .hero h2 {
+      font-size: 3.4rem;
+      font-weight: 700;
+      line-height: 1.2;
+      max-width: 900px;
+      margin: 0 auto 1.2rem;
+      background: linear-gradient(to right, #ffffff, #C0E0FF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      max-width: 750px;
+      margin: 0 auto 2.5rem;
+      color: var(--text-muted);
+    }
+
+    .hero .button {
+      display: inline-block;
+      padding: 1rem 2.8rem;
+      background: var(--accent-blue);
+      color: #0A0F14;
+      font-weight: 700;
+      font-size: 1.15rem;
+      border-radius: 60px;
+      text-decoration: none;
+      box-shadow: 0 10px 25px -5px rgba(44, 184, 232, 0.3);
+      transition: var(--transition);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .hero .button:hover {
+      background: var(--accent-gold);
+      transform: scale(1.05) translateY(-3px);
+      box-shadow: 0 20px 30px -8px #FFD96680;
+      color: #000;
+    }
+
+    /* === SECTIONS === */
+    .section {
+      padding: 5rem 6%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* === CARD (base) === */
+    .card {
+      background: var(--bg-card);
+      padding: 2.5rem;
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+      border: 1px solid #2A3844;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 30px 40px -12px black;
+      border-color: var(--accent-blue);
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .card strong {
+      color: var(--accent-gold);
+      font-weight: 600;
+    }
+
+    /* === FEATURE (overcrowded photo + text side by side) === */
+    .feature-row {
+      display: flex;
+      gap: 2rem;
+      margin: 2.5rem 0 3rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .feature-image {
+      flex: 1 1 300px;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      border: 1px solid #2F3E4A;
+      transition: var(--transition);
+    }
+
+    .feature-image img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .feature-text {
+      flex: 1 1 300px;
+      background: #151F28;
+      padding: 2rem;
+      border-radius: 24px;
+      border: 1px solid #2F3E4A;
+    }
+
+    .feature-text h4 {
+      color: var(--accent-gold);
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .feature-text p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .feature-text .stat-badge {
+      background: #1E2E38;
+      display: inline-block;
+      padding: 0.4rem 1.2rem;
+      border-radius: 40px;
+      font-weight: 600;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* === MEDIA GRID (unified gallery) === */
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .media-item {
+      background: #151F28;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 18px -6px black;
+      transition: var(--transition);
+      border: 1px solid #2F3E4A;
+    }
+
+    .media-item:hover {
+      transform: scale(1.02);
+      border-color: var(--accent-blue);
+    }
+
+    .media-item img,
+    .media-item video {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      background: #1E2C36;
+    }
+
+    .media-caption {
+      padding: 0.8rem 1.2rem 1.2rem;
+      font-size: 0.95rem;
+      color: #B0C6D4;
+      border-top: 1px dashed #2F424F;
+    }
+
+    .media-caption span {
+      color: var(--accent-gold);
+      font-weight: 600;
+      margin-right: 0.3rem;
+    }
+
+    /* === BUTTON OUTLINE (removed from research, kept style if needed elsewhere) === */
+    .button-outline {
+      display: inline-block;
+      padding: 0.6rem 1.8rem;
+      border: 2px solid var(--accent-blue);
+      border-radius: 40px;
+      color: var(--accent-blue);
+      text-decoration: none;
+      font-weight: 600;
+      transition: var(--transition);
+      margin-top: 1rem;
+    }
+
+    .button-outline:hover {
+      background: var(--accent-blue);
+      color: #0A0F14;
+    }
+
+    /* === STAT ROW (for extra stats) === */
+    .stat-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin: 3rem 0 1rem;
+    }
+
+    .stat-item {
+      background: #1E2E38;
+      padding: 1.2rem 2rem;
+      border-radius: 60px;
+      font-weight: 600;
+      box-shadow: inset 0 2px 5px #00000055;
+    }
+
+    .stat-item .number {
+      color: var(--accent-gold);
+      font-size: 2rem;
+      font-weight: 800;
+      margin-right: 0.4rem;
+    }
+
+    /* === FOOTER === */
+    footer {
+      background: #0B141C;
+      text-align: center;
+      padding: 2.5rem 2rem;
+      color: #7A8F9F;
+      font-size: 1rem;
+      border-top: 1px solid #1F313D;
+      margin-top: 2rem;
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 700px) {
+      nav {
+        flex-direction: column;
+        gap: 0.7rem;
+        padding: 1rem 4%;
+      }
+      .nav-links {
+        gap: 1.2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .hero h2 {
+        font-size: 2.4rem;
+      }
+      .section-title {
+        font-size: 1.9rem;
+      }
+      .feature-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Beyond "Free"</div>
+  <div class="nav-links">
+    <a href="file:///C:/Users/DavidT/OneDrive/Desktop/SCHOOL/6.%20G.P/Group%20Project/GP%20UPDATED%20WEBISTE.html#problem">Problem</a>
+    <a href="file:///C:/Users/DavidT/OneDrive/Desktop/SCHOOL/6.%20G.P/Group%20Project/GP%20UPDATED%20WEBISTE.html#research">Research</a>
+    <a href="file:///C:/Users/DavidT/OneDrive/Desktop/SCHOOL/6.%20G.P/Group%20Project/GP%20UPDATED%20WEBISTE.html#solution">Solution</a>
+  </div>
+</nav>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <h2>Is “Free” Education <br>Reaching Everyone?</h2>
+    <p>
+      <span class="highlight">60%</span> of Nairobi lives in informal settlements. 
+      Free primary school exists — but hidden costs &amp; overcrowding leave thousands behind.
+    </p>
+    <a href="file:///C:/Users/DavidT/OneDrive/Desktop/SCHOOL/6.%20G.P/Group%20Project/GP%20UPDATED%20WEBISTE.html#problem" class="button">Uncover the reality</a>
+  </section>
+
+  <!-- PROBLEM SECTION -->
+  <section id="problem" class="section">
+    <h3 class="section-title">The reality inside classrooms</h3>
+    <div class="card" style="padding-bottom: 2rem;">
+      <p>
+        Overcrowded classrooms, missing textbooks, and compulsory uniforms turn “free” into a dream. 
+        Many children drop out because their families cannot afford transport or opportunity costs.
+      </p>
+
+      <!-- FEATURE: overcrowded photo next to descriptive text -->
+      <div class="feature-row">
+        <div class="feature-image">
+          <img src="./Beyond _Free_ · Nairobi education gap_files/overcrowded.jpg" alt="Crowded classroom with students sharing desks" loading="lazy">
+        </div>
+        <div class="feature-text">
+          <h4>70+ students per class</h4>
+          <p>In informal settlement schools, it’s common to find three children sharing one desk meant for two. Textbooks are scarce, and teachers struggle to give individual attention.</p>
+          <div>
+            <span class="stat-badge">📚 1 textbook : 5 pupils</span>
+            <span class="stat-badge">🧑‍🏫 pupil–teacher ratio 90:1</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- UNIFIED GALLERY: remaining evidence images & videos -->
+      <div class="media-grid">
+        <!-- evidence image 1 (Evidendce.jpeg) -->
+        <div class="media-item">
+          <img src="./Beyond _Free_ · Nairobi education gap_files/Evidendce.jpeg" alt="Spreading awareness through posters" loading="lazy">
+          <div class="media-caption"><span>📸</span> Spreading awareness through our posters</div>
+        </div>
+        <!-- evidence image 2 (Evidence (2).jpeg) -->
+        <div class="media-item">
+          <img src="./Beyond _Free_ · Nairobi education gap_files/Evidence (2).jpeg" alt="Community members discussing education" loading="lazy">
+          <div class="media-caption"><span>📸</span> Talking with parents in the community</div>
+        </div>
+        <!-- evidence image 3 (Evidence (3).jpeg) -->
+        <div class="media-item">
+          <img src="./Beyond _Free_ · Nairobi education gap_files/Evidence (3).jpeg" alt="Poster explaining school options" loading="lazy">
+          <div class="media-caption"><span>📸</span> Poster explaining free schooling options</div>
+        </div>
+        <!-- video 1: Spreading awareness.mp4 -->
+        <div class="media-item">
+          <video src="Spreading awareness.mp4" controls="" preload="none" poster="poster-placeholder.jpg">
+            Your browser does not support the video tag.
+          </video>
+          <div class="media-caption"><span>🎥</span> Informing a teacher about our project</div>
+        </div>
+        <!-- video 2: Interview.mp4 -->
+        <div class="media-item">
+          <video src="Interview.mp4" controls="" preload="none" poster="poster-placeholder.jpg">
+            Your browser does not support the video tag.
+          </video>
+          <div class="media-caption"><span>🎥</span> Interview with a father in a catholic school</div>
+        </div>
+      </div>
+
+      <!-- quick stat row -->
+      <div class="stat-row">
+        <div class="stat-item"><span class="number">73%</span> of households struggle with uniform costs</div>
+        <div class="stat-item"><span class="number">1 : 90</span> teacher–student ratio in some zones</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH SECTION (download button removed) -->
+  <section id="research" class="section">
+    <h3 class="section-title">Research &amp; analysis</h3>
+    <div class="card">
+      <p style="font-size: 1.25rem; font-weight: 400;">
+        <span class="highlight">Question:</span><br>
+        <strong>Does poverty and inequality limit children's access to education in Nairobi?</strong>
+      </p>
+      <p>
+        We interviewed multiple teachers, handed out questionaires, and analysed economic data. 
+        Findings: <strong>material shortages</strong> (books, desks) and <strong>irregular attendance</strong> due to 
+        casual labour create a widening learning gap. Even where fees are absent, costs for 
+        uniforms, transport, and lunch exclude the poorest.
+      </p>
+      <p>
+        “Every child should be given access to education”- father in St.Mary's School
+      </p>
+      <!-- Download button removed as requested -->
+    </div>
+  </section>
+
+  <!-- SOLUTION SECTION -->
+  <section id="solution" class="section">
+    <h3 class="section-title">Sustainable solution</h3>
+    <div class="card">
+      <p>
+        Our approach is <strong>community‑driven awareness</strong>. We design simple, visual posters 
+        explaining:
+      </p>
+      <ul style="color: var(--text-muted); margin: 1.5rem 0 1.5rem 2rem; list-style-type: &#39;✓   &#39;;">
+        <li>Which public schools are really no‑fee</li>
+        <li>How to apply for bursaries &amp; uniform funds</li>
+        <li>Where to find affordable second‑hand books</li>
+      </ul>
+      <p>
+        These posters will be placed in local shops, churches, and health centres. 
+        We also partner with community health volunteers to spread the word orally.
+      </p>
+      <p style="margin-top: 1.8rem; border-left: 3px solid var(--accent-gold); padding-left: 1.5rem;">
+        <em>“Clear information breaks the first barrier — many families simply don't know their options.”</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- impact preview -->
+  <section class="section" style="padding-top: 1rem;">
+    <div style="background: #0F1A24; border-radius: 3rem; padding: 2rem; text-align: center;">
+      <p style="color: var(--accent-gold); font-weight: 600; letter-spacing: 1px;">OUR GOAL</p>
+      <p style="font-size: 1.6rem; max-width: 700px; margin: 0.5rem auto;">
+        Reach <span style="color: white; background: #2CB8E8; padding: 0.1rem 1rem; border-radius: 40px;">200+</span> families by the end of 2026
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>A Global Perspectives Project by <strong>Trevor, Joyce &amp; David</strong></p>
+  <p style="margin-top: 1rem; font-size: 0.9rem;">📍 Nairobi, Kenya · 2026</p>
+</footer>
+
+
+</body></html>
